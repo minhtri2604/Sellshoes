@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.main
+{
+    width: 100vw;
+    height: 100vh;
+   
+
+}.header{
+    height: 30px;
+    background-color: rgb(1,21,66);
+}
+.header-sub{
+    float: right;
+}
+
+.header ul{
+    line-height: 25px;
+padding-right: 30px;
+
+
+
+    
+}
+.header li{
+    display: inline-block;
+    
+    vertical-align: middle;
+   position: relative;
+
+}
+.header a{
+    text-decoration: none;
+    
+    
+    font-size: 11px;
+    padding:0 10px;
+    color:rgba(255,255,255,.8)
+    
+   
+    
+    
+  
+}
+.header-sub>ul>li:hover>a{
+    color: #fff;
+    text-decoration: none;
+}
+.header>ul>li>a{
+    border-left: 1px solid gray;
+    color: gainsboro;
+}
+#search{color: white;
+    margin-right: 5px;
+}
+.chevron{
+    color: gray;
+    font-size: 10px;
+    margin-left: 2px;
+}
+
+
+
+.header li:hover .sub-blog{
+    display: block;
+
+}
+.sub-blog li:hover a{
+    color: black;
+    text-decoration: none;
+}
+.sub-blog{
+    vertical-align: middle;
+
+position: absolute;
+
+  background-color: white;
+   min-width: 180px;
+   right:1px;
+   
+color: rgba(255,255,255,.8);
+
+   padding: 20px;
+   display: none;
+   border: 1px solid gainsboro;
+   border-radius: 5px;
+   line-height: 1.5;
+}
+.sub-blog li{
+    display: block;
+}
+.sub-blog a{
+    border-bottom: 1px solid gainsboro;
+    display: block;
+    color: gray;
+     
+}
+.sub-blog #tonghop{
+    border: none;
+}
+/* phần nav */
+.nav{
+    
+    position: inherit;
+    height: 50px;
+    
+ 
+} 
+ 
+.sub-nav {
+    float: right;
+    margin-right: 40px;
+    
+}
+.sub-nav ul{
+    line-height: 50px;
+}
+.sub-nav li{
+    display:inline;
+
+}
+
+
+.sub-nav li{
+display: inline-block;
+}
+.sub-nav a{
+    font-size: 10px;
+    margin-right: 15px;
+    color: #011542;
+
+    font-weight: 500;
+    
+}
+.sub-nav li span{
+    border-left: 1px solid gainsboro;
+    padding: 5px;
+}
+.sub-nav li span>i{
+    color: red;
+}
+.sub-nav a:hover{
+    color: red;
+    text-decoration: none;
+}
+.sub-nav i{
+    position: inherit;
+}
+/* phần content */
+
+.content{
+    clear: both;
+    
+}
+.content h4{
+    text-align: center;
+    font-weight: 600;
+}
+.content-text p{
+    font-size: 14px;
+    font-weight: 500;
+    margin:0 100px;
+}
+/* phần content-slider */
+.slider{
+    clear: both;
+    margin-top: 40px;
+}
+.number-text{
+    margin-left: 100px;
+}
+.myslider a{
+    color: rgba(102,102,102,.7);
+
+}
+.myslider a:hover{
+    color: #011542;
+    text-decoration: none;
+}
+.myslider span{
+    color: #011542;
+    font-weight: 600;
+}
+.sliders .text h5{
+    color: #011542;
+    font-weight: 600;
+}
+.slider .text p{
+    color: #011542;
+    display: block;
+}
+.slider .text p:hover{
+    color: red;
+}
+.sliders{
+    margin-top: 10px;
+}
+/* phần tạo ra nút click */
+.slider input{
+display: none;
+}
+
+.laberslider{
+    margin-top: 20px;
+    
+    display: flex;
+justify-content: center;
+    
+}
+
+label{
+    margin: 5px;
+    border: 1px solid;
+    padding-left: 7px;
+    padding-top: 2px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+label:hover{
+    background-color: red;
+    color: white;
+}
+
+/* phần footer */
+.footer
+{
+    margin-top: 50px;
+    clear: both;
+    background-color: #f9f9f9;
+    height: 390px;
+   
+   
+}
+.sub-footer{
+    padding-top: 20px;
+    margin-left: 100px;
+
+}
+.footer .left{
+    float: left;
+    width: 45%;
+}
+.footer :right{
+    float: left;
+}
+.footer a{
+    color: #1e73be;
+    font-weight: 700;
+}
+.footer a:hover{
+    color: red;
+    text-decoration: none;
+}
+.footer-contact{
+    margin-top: 10px;
+    clear: both;
+    text-align: center;
+    color: darkgray;
+}
+
+.nav-contact li{
+    display: inline-block;
+}
+.nav-contact a{
+    color: #334862;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 15px;
+}
+.footer-contact .banquyen{
+    color: #334862;
+}
+.nav-contact li:hover a{
+    text-decoration: none;
+    color: #334862;
+}
+.banquyen{
+    font-size: 13px;
+}
+.banquyen a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+

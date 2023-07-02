@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.tren{
+    margin-left: 200px;
+    line-height: 2;
+}
+
+.tren h1{
+    color: #545353;
+}
+.tren a{
+    color: red;
+    text-decoration: none;
+}
+
+.duoi{
+    margin-left: 200px;
+}
+th {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+  }
+#t01{
+   float: left; 
+}
+
+th{text-align: left;
+    padding-right: 30px;
+    
+}
+
